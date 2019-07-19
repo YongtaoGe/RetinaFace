@@ -5,5 +5,5 @@
 ![b](pic/0_Parade_Parade_0_901.jpg)
 
 ## TODO: 
-- [] widerface accuracy testing
-- [] inference on TVM
+- [ ] widerface accuracy testing
+- [ ] inference on TVM
