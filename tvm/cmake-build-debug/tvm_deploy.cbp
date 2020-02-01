@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tvm_deploy"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tvm_deploy">
+				<Option output="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/tvm_deploy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/geyongtao/Desktop/tvm/include"/>
+					<Add directory="/Users/geyongtao/Desktop/tvm/3rdparty/dmlc-core/include"/>
+					<Add directory="/Users/geyongtao/Desktop/tvm/3rdparty/dlpack/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 tvm_deploy"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tvm_deploy/fast">
+				<Option output="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/tvm_deploy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/geyongtao/Desktop/tvm/include"/>
+					<Add directory="/Users/geyongtao/Desktop/tvm/3rdparty/dmlc-core/include"/>
+					<Add directory="/Users/geyongtao/Desktop/tvm/3rdparty/dlpack/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 tvm_deploy/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/deps/tvm/tvm_runtime_pack.cc">
+			<Option target="tvm_deploy"/>
+		</Unit>
+		<Unit filename="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/include/detection/anchor_generator.hpp">
+			<Option target="tvm_deploy"/>
+		</Unit>
+		<Unit filename="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/include/detection/detector.hpp">
+			<Option target="tvm_deploy"/>
+		</Unit>
+		<Unit filename="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/include/engine/syncedmem.h">
+			<Option target="tvm_deploy"/>
+		</Unit>
+		<Unit filename="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/include/engine/tensor.h">
+			<Option target="tvm_deploy"/>
+		</Unit>
+		<Unit filename="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/include/misc/time.hpp">
+			<Option target="tvm_deploy"/>
+		</Unit>
+		<Unit filename="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/main.cpp">
+			<Option target="tvm_deploy"/>
+		</Unit>
+		<Unit filename="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/src/detection/anchor_generator.cpp">
+			<Option target="tvm_deploy"/>
+		</Unit>
+		<Unit filename="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/src/detection/detector.cpp">
+			<Option target="tvm_deploy"/>
+		</Unit>
+		<Unit filename="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/src/engine/syncedmem.cpp">
+			<Option target="tvm_deploy"/>
+		</Unit>
+		<Unit filename="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/src/engine/tensor.cpp">
+			<Option target="tvm_deploy"/>
+		</Unit>
+		<Unit filename="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/src/misc/time.cpp">
+			<Option target="tvm_deploy"/>
+		</Unit>
+		<Unit filename="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

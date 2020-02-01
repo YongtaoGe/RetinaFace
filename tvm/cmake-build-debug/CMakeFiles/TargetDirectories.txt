@@ -1,0 +1,3 @@
+/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/geyongtao/Desktop/RetinaFace.PyTorch/tvm/cmake-build-debug/CMakeFiles/tvm_deploy.dir
